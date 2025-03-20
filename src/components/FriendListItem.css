@@ -1,0 +1,36 @@
+.item-f {
+    display: flex;
+    align-items: center;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.status-f {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.status-f.online {
+    background-color: green;
+}
+
+.status-f.offline {
+    background-color: red;
+}
+
+.avatar {
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
