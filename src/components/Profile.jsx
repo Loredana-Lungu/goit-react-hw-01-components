@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Profile.css'; // Asigură-te că ai un fișier CSS pentru stilizare
+import './Profile.css';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className="profile">
       <div className="description">
-        <img src={avatar} alt="User avatar" className="avatar" />
-        <p className="name">{username}</p>
+        <img src={avatar} alt="User avatar" className="avatar-p" />
+        <p className="name-p">{username}</p>
         <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
       </div>

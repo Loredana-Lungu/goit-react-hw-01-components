@@ -5,7 +5,7 @@ import './Statistics.css';
 const Statistics = ({ title, stats, colorFunc }) => {
   return (
     <section className={clsx('statistics')}>
-      {title && <h2 className={clsx('title')}>Upload stats</h2>}
+      {title && <h2 className={clsx('title')}>Upload status</h2>}
 
       <ul className={clsx('stat-list')}>
         {stats.map(stat => (

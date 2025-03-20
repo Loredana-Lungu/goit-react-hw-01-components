@@ -8,8 +8,8 @@
     margin: 60px auto;
     font-size: 16px;
     font-weight: 200;
-    border-collapse: collapse;  /* delete all the white spaces between rows and columns <=> border-spacing*/
-    overflow: hidden; /*to see border-radius*/
+    border-collapse: collapse;
+    overflow: hidden;
 }
 
 th {
@@ -36,9 +36,9 @@ td {
 }
 
 .transaction-history tbody tr:nth-of-type(odd) {
-  background-color: #e0e0e0; /* Color for odd/impare rows */
+  background-color: #c8afb7;
 }
 
 .transaction-history tbody tr:hover {
-  background-color: #d1d1d1; /* Hover color */
+  background-color: #d1d1d1;
 }
